@@ -222,3 +222,40 @@ nav button{
     width: 497px;
     height: 49px;
 }
+
+/*footer section style*/
+
+footer{
+    padding: 10px 100px;
+    background-color: rgb(234, 229, 229);
+    margin-top: 20px;
+}
+.footer-section{
+    text-align: center;
+    width: 531px;
+    /* height: 222px; */
+    margin: 0px auto;
+    /* background-color: antiquewhite; */
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.footer-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+
+}
+.footer-section li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+.logo{
+    font-size: 100px;
+    margin: 0px;
+}
+.footer-des{
+    color: rgb(37, 36, 50, 50%);
+    margin-top: 0px;
+}
