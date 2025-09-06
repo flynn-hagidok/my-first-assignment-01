@@ -200,3 +200,25 @@ nav button{
 .icon-star img{
     margin-bottom: -30px;
 }
+
+/*touch section style*/
+
+.touch{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 137px;
+}
+.touch h2{
+    font-size: 97px;
+    font-weight: bold;
+}
+.right-sides input[type="email"], input[type="text"], textarea{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+}
+.right-sides button{
+    width: 497px;
+    height: 49px;
+}
