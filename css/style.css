@@ -7,19 +7,39 @@
   font-style: normal;
 }
 
+.raleway-font2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
 /* header{
     background-color: aquamarine;
 } */
 
 /* shared style used*/
+
+.width{
+    max-width: 1140px;
+}
 .color{
     color: #4E47FF;
+}
+.color-2{
+    color: #252432;
 }
 .bg-color{
     background-color: #4E47FF;
     color: white;
     border: none;
     border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bg-color:hover{
+    background-color: chocolate;
 }
 
 /*header*/ 
@@ -32,7 +52,7 @@ nav{
     /* background-color: blanchedalmond; */
     display: flex;
     justify-content: space-between;
-    max-width: 1140px;
+    /* max-width: 1140px; */
     margin: 0px auto;
     padding: 0px 50px;
 }
@@ -51,6 +71,7 @@ nav button{
 }
 
 /*nav banner style*/
+
 .banner-content{
     max-width: 905px;
     height: 600px;
@@ -68,4 +89,36 @@ nav button{
     width: 174px;
     height: 48px;
 }
+
+/*main*/
+/*style a action*/
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    margin-top: 52px;
+}
+.left-side{
+    width: 517px;
+}
+.left-side .title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+.left-side .sub-title{
+    font-size: 24px;
+    color: rgb(37, 36, 50, 50%);
+}
+.left-side button{
+    width: 229px;
+    height: 48px;
+}
+
+.right-side img{
+    border-radius: 48px;
+}
+
+/* user section style */
 
